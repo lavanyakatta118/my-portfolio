@@ -35,7 +35,7 @@ function App() {
         {/* 2. Fidelity Investments */}
         <div className="card">
           <h3>Network Engineer</h3>
-          <p style={{color: '#00d4ff'}}>Fidelity Investments | 2021 - 2024</p>
+          <p style={{color: '#00d4ff'}}>Fidelity Investments | 2022 - 2024</p>
           <ul>
             <li>Expertise in F5 Load Balancing and Cisco Nexus switching.</li>
             <li>Automated routine tasks using Python and Ansible.</li>
@@ -45,7 +45,7 @@ function App() {
         {/* 3. Comcast */}
         <div className="card">
           <h3>Network Engineer</h3>
-          <p style={{color: '#00d4ff'}}>Comcast | 2019 - 2021</p>
+          <p style={{color: '#00d4ff'}}>Comcast | 2021 - 2022</p>
           <ul>
             <li>Managed large-scale enterprise network infrastructure.</li>
             <li>Configured BGP, OSPF protocols and handled troubleshooting.</li>
@@ -55,7 +55,7 @@ function App() {
         {/* 4. Tech Mahindra */}
         <div className="card">
           <h3>Network Support Engineer</h3>
-          <p style={{color: '#00d4ff'}}>Tech Mahindra | 2018 - 2019</p>
+          <p style={{color: '#00d4ff'}}>Tech Mahindra | 2019 - 2021</p>
           <ul>
             <li>Technical support for routing, switching, and network connectivity.</li>
             <li>Hands-on experience with Cisco routers and switches.</li>
