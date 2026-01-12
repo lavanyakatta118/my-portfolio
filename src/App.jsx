@@ -8,7 +8,17 @@ function App() {
         <h1>Lavanya Katta</h1>
         <p className="subtitle">SR. NETWORK SECURITY & CLOUD ENGINEER</p>
         <p>6+ Years Experience | Palo Alto | Fortinet | AWS | Azure</p>
-        <a href="mailto:lavanyakatta118@gmail.com" className="btn-primary">Get In Touch</a>
+        
+        {/* Buttons Section */}
+        <div style={{ marginTop: '30px' }}>
+          <a href="mailto:lavanyakatta118@gmail.com" className="btn-primary">
+            Get In Touch
+          </a>
+          
+          <a href="/Resume_Lavanya.pdf" download className="btn-primary" style={{ marginLeft: '15px' }}>
+            Download Resume
+          </a>
+        </div>
       </header>
 
       <section>
