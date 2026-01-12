@@ -52,13 +52,13 @@ function App() {
           </ul>
         </div>
 
-        {/* 4. CSS Corp */}
+        {/* 4. Tech Mahindra */}
         <div className="card">
           <h3>Network Support Engineer</h3>
-          <p style={{color: '#00d4ff'}}>CSS Corp | 2018 - 2019</p>
+          <p style={{color: '#00d4ff'}}>Tech Mahindra | 2018 - 2019</p>
           <ul>
-            <li>Provided technical support for routing and switching issues.</li>
-            <li>Worked on Cisco hardware and enterprise connectivity.</li>
+            <li>Technical support for routing, switching, and network connectivity.</li>
+            <li>Hands-on experience with Cisco routers and switches.</li>
           </ul>
         </div>
       </section>
