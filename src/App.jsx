@@ -9,17 +9,59 @@ function App() {
         <p className="subtitle">SR. NETWORK SECURITY & CLOUD ENGINEER</p>
         <p>6+ Years Experience | Palo Alto | Fortinet | AWS | Azure</p>
         
-        {/* Buttons Section */}
         <div style={{ marginTop: '30px' }}>
           <a href="mailto:lavanyakatta118@gmail.com" className="btn-primary">
             Get In Touch
           </a>
-          
           <a href="/Resume_Lavanya.pdf" download className="btn-primary" style={{ marginLeft: '15px' }}>
             Download Resume
           </a>
         </div>
       </header>
+
+      <section>
+        <h2>Work Experience</h2>
+        
+        {/* 1. R+L Carriers */}
+        <div className="card">
+          <h3>Sr. Network Security Engineer</h3>
+          <p style={{color: '#00d4ff'}}>R+L Carriers | 2024 - Present</p>
+          <ul>
+            <li>Managing Palo Alto & Fortinet Firewalls across global sites.</li>
+            <li>Leading SD-WAN transformation and cloud security migration.</li>
+          </ul>
+        </div>
+
+        {/* 2. Fidelity Investments */}
+        <div className="card">
+          <h3>Network Engineer</h3>
+          <p style={{color: '#00d4ff'}}>Fidelity Investments | 2021 - 2024</p>
+          <ul>
+            <li>Expertise in F5 Load Balancing and Cisco Nexus switching.</li>
+            <li>Automated routine tasks using Python and Ansible.</li>
+          </ul>
+        </div>
+
+        {/* 3. Comcast */}
+        <div className="card">
+          <h3>Network Engineer</h3>
+          <p style={{color: '#00d4ff'}}>Comcast | 2019 - 2021</p>
+          <ul>
+            <li>Managed large-scale enterprise network infrastructure.</li>
+            <li>Configured BGP, OSPF protocols and handled troubleshooting.</li>
+          </ul>
+        </div>
+
+        {/* 4. CSS Corp */}
+        <div className="card">
+          <h3>Network Support Engineer</h3>
+          <p style={{color: '#00d4ff'}}>CSS Corp | 2018 - 2019</p>
+          <ul>
+            <li>Provided technical support for routing and switching issues.</li>
+            <li>Worked on Cisco hardware and enterprise connectivity.</li>
+          </ul>
+        </div>
+      </section>
 
       <section>
         <h2>Technical Expertise</h2>
@@ -32,27 +74,6 @@ function App() {
           <div className="badge">Ansible</div>
           <div className="badge">F5 BIG-IP</div>
           <div className="badge">Cisco ACI</div>
-        </div>
-      </section>
-
-      <section>
-        <h2>Work Experience</h2>
-        <div className="card">
-          <h3>Sr. Network Security Engineer</h3>
-          <p style={{color: '#00d4ff'}}>R+L Carriers | 2024 - Present</p>
-          <ul>
-            <li>Managing Palo Alto & Fortinet Firewalls across global sites.</li>
-            <li>Leading SD-WAN transformation and cloud security migration.</li>
-          </ul>
-        </div>
-
-        <div className="card">
-          <h3>Network Engineer</h3>
-          <p style={{color: '#00d4ff'}}>Fidelity Investments | 2021 - 2024</p>
-          <ul>
-            <li>Expertise in F5 Load Balancing and Cisco Nexus switching.</li>
-            <li>Automated routine tasks using Python and Ansible.</li>
-          </ul>
         </div>
       </section>
     </div>
