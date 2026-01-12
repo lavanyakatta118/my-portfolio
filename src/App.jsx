@@ -1,52 +1,52 @@
-import React from 'react';
-import './App.css';
+import './App.css'
 
 function App() {
-  const profile = {
-    name: "Lavanya Katta",
-    title: "Sr. Network, Cloud & Cyber Security Engineer",
-    email: "lavanya.katta119@gmail.com",
-    summary: "Senior Engineer with 6+ years of experience in securing enterprise networks and hybrid cloud infrastructures. Expert in Palo Alto, Fortinet, and AWS/Azure security.",
-    skills: ["Palo Alto", "Fortinet", "AWS/Azure", "Python/Ansible", "F5 BIG-IP", "Cisco ACI"],
-    experience: [
-      { company: "R+L Carriers", role: "Sr. Network Security Engineer", duration: "2024 - Present" },
-      { company: "Fidelity Investments", role: "Sr. Network Security Engineer", duration: "2022 - 2024" },
-      { company: "Comcast", role: "Network Engineer", duration: "2021 - 2022" }
-    ]
-  };
-
   return (
-    <div className="portfolio">
-      <nav className="nav">
-        <h1 className="logo">LK</h1>
-        <a href={`mailto:${profile.email}`} className="contact-btn">Email Me</a>
-      </nav>
-      <header className="hero">
-        <div className="badge">CCNA Certified</div>
-        <h2>Hi, I'm {profile.name}</h2>
-        <h3>{profile.title}</h3>
-        <p className="summary">{profile.summary}</p>
+    <div className="container">
+      <header className="header">
+        <div className="badge">CCNA Certified: Z6J5K8JFFC1EQJ91</div>
+        <h1>Lavanya Katta</h1>
+        <p className="subtitle">SR. NETWORK SECURITY & CLOUD ENGINEER</p>
+        <p>6+ Years Experience | Palo Alto | Fortinet | AWS | Azure</p>
+        <a href="mailto:lavanyakatta118@gmail.com" className="btn-primary">Get In Touch</a>
       </header>
-      <section className="section">
-        <h3>Technical Expertise</h3>
-        <div className="skill-grid">
-          {profile.skills.map(s => <span key={s} className="skill-tag">{s}</span>)}
+
+      <section>
+        <h2>Technical Expertise</h2>
+        <div className="card">
+          <div className="badge">Palo Alto Networks</div>
+          <div className="badge">Fortinet NSE</div>
+          <div className="badge">AWS Security</div>
+          <div className="badge">Azure Networking</div>
+          <div className="badge">Python Automation</div>
+          <div className="badge">Ansible</div>
+          <div className="badge">F5 BIG-IP</div>
+          <div className="badge">Cisco ACI</div>
         </div>
       </section>
-      <section className="section">
-        <h3>Experience</h3>
-        {profile.experience.map((exp, i) => (
-          <div key={i} className="job-card">
-            <h4>{exp.company}</h4>
-            <p>{exp.role} | {exp.duration}</p>
-          </div>
-        ))}
+
+      <section>
+        <h2>Work Experience</h2>
+        <div className="card">
+          <h3>Sr. Network Security Engineer</h3>
+          <p style={{color: '#00d4ff'}}>R+L Carriers | 2024 - Present</p>
+          <ul>
+            <li>Managing Palo Alto & Fortinet Firewalls across global sites.</li>
+            <li>Leading SD-WAN transformation and cloud security migration.</li>
+          </ul>
+        </div>
+
+        <div className="card">
+          <h3>Network Engineer</h3>
+          <p style={{color: '#00d4ff'}}>Fidelity Investments | 2021 - 2024</p>
+          <ul>
+            <li>Expertise in F5 Load Balancing and Cisco Nexus switching.</li>
+            <li>Automated routine tasks using Python and Ansible.</li>
+          </ul>
+        </div>
       </section>
-      <footer className="footer">
-        <p>© 2026 Lavanya Katta | Built with Vite + React</p>
-      </footer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
