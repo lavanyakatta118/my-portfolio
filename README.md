@@ -1,16 +1,20 @@
-# React + Vite
+Lavanya Katta
+Sr. Network Security & Cloud Engineer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my professional portfolio! I am a Network Security Engineer with 6+ years of experience specializing in Palo Alto, Fortinet, and Cloud Security.
 
-Currently, two official plugins are available:
+Experience Timeline
+| Company | Role | Years |
+| R+L Carriers | Sr. Network Security Engineer | 2024 - Present |
+| Fidelity Investments | Network Engineer | 2022 - 2024 |
+| Comcast | Network Engineer | 2021 - 2022 |
+| Tech Mahindra | Network Support Engineer | 2019 - 2021 |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Technical Skills
+* Firewalls: Palo Alto (PCNSA), Fortinet NSE, Cisco ASA
+* Cloud: AWS Security, Azure Networking
+* Networking: BGP, OSPF, SD-WAN, Cisco ACI
+* Automation: Python, Ansible
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Live Portfolio
+You can view my live website here: [https://my-portfolio-one-gamma-30.vercel.app/](https://my-portfolio-one-gamma-30.vercel.app/)
